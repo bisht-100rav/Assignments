@@ -27,15 +27,6 @@ print(square)
 
 
 
-#Ques_4
-A=[1,2,3,"Random","Question",98.2,22.5]
-integer=[]
-str=[]
-fl=[]
-while type(A) is int:
-    integer.append(A)
-
-
 
 
 #Ques_5
