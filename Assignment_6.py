@@ -1,3 +1,4 @@
+
 #Ques_1
 i=0
 while i<10:
@@ -25,6 +26,15 @@ while i<num:
 print(b)
 print(square)
 
+
+
+#Ques_4
+A=[1,2,3,"Random","Question",98.2,22.5]
+integer=[]
+str=[]
+fl=[]
+while type(A) is int:
+    integer.append(A)
 
 
 
@@ -83,3 +93,20 @@ if search in list:
 else:
     print("Searched entry does not exist!!!")
 
+#Ques_4
+
+random=[1,2,"string",1.4]
+A=[]
+B=[]
+C=[]
+for i in random:
+    if (type(i)==int):
+        A.append(i)
+
+    elif (type(i)==str):
+        B.append(i)
+    else:
+        C.append(i)
+print(A)
+print(B)
+print(C)
