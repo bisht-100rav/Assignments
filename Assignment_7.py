@@ -12,10 +12,11 @@ def perfect(n):
         if n%i==0:
             sum=sum+i
     if sum==n:
-        print("True")
-    else: print("False")
-n=int(input("Enter any number: "))
-perfect(n)
+       return True
+    else: return False
+for i in range(1,1001):
+    if perfect(i):
+        print(i)
 
 
 #Ques_3
